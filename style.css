@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  background-color: black;
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.navigation button {
+  margin: 16px;
+}
+
+#badge {
+  display: flex;
+  margin: 16px;
+}
+
+#badge .box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-right: 24px;
+}
+
+#badge .content {
+  display: flex;
+}
+
+#badge .content span {
+  margin-right: 4px;
+  margin-top: 40px;
+}
